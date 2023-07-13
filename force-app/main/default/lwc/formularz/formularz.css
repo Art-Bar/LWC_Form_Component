@@ -1,0 +1,24 @@
+.FormHeader {
+
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+  font-size: 2em;
+  font: Helvetica;
+}
+.FormComponent {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FormCard {
+    width: 40%;
+    margin:1%;
+    
+}

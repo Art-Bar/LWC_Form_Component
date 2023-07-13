@@ -1,0 +1,22 @@
+<template>
+    <div class="FormComponent">
+    <lightning-card class="FormCard">
+        
+        <h3 class="FormHeader">Wydarzenia</h3>
+        <lightning-record-form 
+            
+            object-api-name={objectApiNameWydarzenia}
+            fields={fieldsWydarzenia}
+            onsuccess={handleSuccessWydarzenia}>
+        </lightning-record-form>
+    </lightning-card>
+    <lightning-card class="FormCard">
+        <h3 class="FormHeader">Uczestnicy</h3>
+        <lightning-record-form  
+            object-api-name={objectApiNameUczestnicy}
+            fields={fieldsUczestnicy}
+            onsuccess={handleSuccessUczestnicy}>
+        </lightning-record-form> 
+    </lightning-card>
+    </div>
+</template>
